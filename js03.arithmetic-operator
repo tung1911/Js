@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript &amp; jQuery - Chapter 2: Basic JavaScript Instructions - String Variable</title>
+  <link rel="stylesheet" href="c02.css" />
+</head>
+<body>
+<h1>Elderflower</h1>
+<div id="content">
+  <div id="title">Howdy <span id="name">friend</span>!</div>
+  <div id="note">Take a look around...</div>
+</div>
+<script src="string-variable.js"></script>
+</body>
+</html>
+
+
+js
+var subtotal=(13+1)*5;
+
+var shipping=0.5*(13+1);
+
+var total=subtotal+shiping;
+
+var elSub=document.getElementById('Subtotal');
+elSub.textContent=subtotal;
+
+var elShip=document.getElementById('shipping');
+elShip.textContent=shipping;
+
+var elTotal=document.getElementById('total');
+elTotal.textContent=total;
